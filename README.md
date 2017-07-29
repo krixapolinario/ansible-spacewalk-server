@@ -13,13 +13,12 @@ Prerequisites
 Usage
 -----
 
-Access the spacewalk playbook and fill the configuration files according to your needs:
+Clone this repository:
 
-   * Adjust the server information on hosts file
-      * NOTE: It's possible to install more than one servers at the same time.
+git clone https://github.com/krixapolinario/ansible-spacewalk-server.git
 
-   * Adjust the configuration information to server on defaults/main.yaml
-      * NOTE_1: If you don't set any one of those variables the instalation won't work.
+Adjust the configuration information to server on defaults/main.yaml
+   * NOTE_1: If you don't set any one of those variables the instalation won't work.
 
 Resources
 ---------
