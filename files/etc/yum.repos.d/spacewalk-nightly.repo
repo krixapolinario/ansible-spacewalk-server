@@ -1,0 +1,7 @@
+[spacewalk-nightly]
+name=Spacewalk nightly
+baseurl=http://yum.spacewalkproject.org/nightly/RHEL/7/$basearch/
+#gpgkey=http://yum.spacewalkproject.org/RPM-GPG-KEY-spacewalk-2015
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-spacewalk-2015
+enabled=0
+gpgcheck=0

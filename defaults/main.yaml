@@ -1,0 +1,24 @@
+#
+# Authors: Krix Apolinario <krixapolinario@gmail.com>
+#
+# Description: Simples Ansible Playbook to install a Spacewalk 2.6 Client
+#
+
+---
+
+###################################################################
+# THE INFORMATIONS BELOW NEED TO BE SET CAREFULLY - DO NOT FORGET #
+###################################################################
+
+# Define server's hostname
+server_hostname: spacewalk
+
+# Fill the answers file to spacewalk-setup command
+ssl_set_email: admin@spacewalk.com
+ssl_set_org: Spacewalk
+ssl_set_org_unit: Spacewalk Server
+ssl_set_city: Recife
+ssl_set_state: Pernambuco
+ssl_set_country: BR
+ssl_password: sUp3r_s3cr3T_P@ssw0rd_ch4Ng3_m3_Pl3@s3
+
